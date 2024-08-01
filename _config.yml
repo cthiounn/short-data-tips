@@ -1,0 +1,13 @@
+title: Short data Tips
+author:
+  name: cthiounn
+  email: cthiounn-github@gmail.com
+description: Random Blog about Short data Tips
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+header_pages:
+  - about.md
+minima:
+  skin: classic
