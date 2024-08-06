@@ -6,9 +6,9 @@ categories: python
 author:
   - cthiounn
 ---
-To encode an image in base64 and put it in an img HTML tag <img src={replace\_by\_data\_uri}>
+To encode an image in base64 and put it in an img HTML tag `<img src={replace\_by\_data\_uri}>`
 
-_Pour encoder une image en base64 et la mettre dans une balise img HTML <img src={replace\_by\_data\_uri}> 
+_Pour encoder une image en base64 et la mettre dans une balise img HTML `<img src={replace\_by\_data\_uri}>` 
 
 ```
 import base64
