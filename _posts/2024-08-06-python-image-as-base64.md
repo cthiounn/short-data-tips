@@ -1,13 +1,14 @@
 ---
 layout: post
+cover: /media/download.png
 title: "Python : image as base64"
 categories: python
 author:
   - cthiounn
 ---
-To encode an image in base64 and put it in an img HTML tag <img src="{replace\_by\_data\_uri}" alt="logo">
+To encode an image in base64 and put it in an img HTML tag ![logo]({replace\_by\_data\_uri})
 
-_Pour encoder une image en base64 et la mettre dans une balise img HTML <img src="{remplacer\_par\_data\_uri}" alt="logo">_
+_Pour encoder une image en base64 et la mettre dans une balise img HTML ![logo]({remplacer\_par\_data\_uri})_ 
 
 ```
 import base64
