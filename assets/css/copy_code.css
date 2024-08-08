@@ -1,3 +1,7 @@
+.code-container {
+  position: relative;
+}
+
 .copy-code-button {
   position: absolute;
   right: 10px;
@@ -15,6 +19,14 @@
   background: #005fa3;
 }
 
-.code-container {
-  position: relative;
+pre {
+  margin: 0; /* Adjust as necessary */
+  padding: 1em; /* Adjust as necessary */
+}
+
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0;
+  margin: 0;
 }
