@@ -1,14 +1,19 @@
 .code-container {
   position: relative;
+  margin: 1em 0;
 }
 
 .copy-code-button {
-  position: relative;
+  position: absolute;
+  right: 10px;
+  top: 10px;
   padding: 5px 10px;
   background: #007acc;
   color: white;
   border: none;
+  border-radius: 3px;
   cursor: pointer;
+  font-size: 0.9em;
 }
 
 .copy-code-button:active {
@@ -16,13 +21,14 @@
 }
 
 pre {
+  position: relative; /* Ensure the button is positioned relative to the pre element */
   margin: 0; /* Adjust as necessary */
   padding: 1em; /* Adjust as necessary */
+  overflow: auto;
 }
 
 pre code {
   display: block;
-  overflow-x: auto;
   padding: 0;
   margin: 0;
 }

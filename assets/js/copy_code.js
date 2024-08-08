@@ -18,15 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   
       var pre = codeBlock.parentNode;
-      if (pre.parentNode.classList.contains('highlight')) {
-        pre.parentNode.insertBefore(button, pre);
-      } else {
-        var wrapper = document.createElement('div');
-        wrapper.classList.add('code-container');
-        pre.parentNode.insertBefore(wrapper, pre);
-        wrapper.appendChild(pre);
-        wrapper.appendChild(button);
-      }
+      var wrapper = document.createElement('div');
+      wrapper.className = 'code-container';
+  
+      pre.parentNode.insertBefore(wrapper, pre);
+      wrapper.appendChild(pre);
+      wrapper.appendChild(button);
     });
   });
   
